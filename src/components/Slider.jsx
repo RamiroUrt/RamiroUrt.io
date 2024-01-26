@@ -27,7 +27,7 @@ export default function Carousel({
   }, [autoSlide, autoSlideInterval]);
 
   return (
-    <div className="relative w-full h-[23vh] md:h-[60vh] overflow-hidden ">
+    <div className="relative w-full   md:mt-0 overflow-hidden ">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{

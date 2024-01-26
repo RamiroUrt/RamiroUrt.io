@@ -36,8 +36,8 @@ const LogoSlider = () => {
   return (
     <Slider {...settings} className='overflow-hidden bg-gray-100' >
       {logos.map((logo, index) => (
-        <div key={index} className=' h-[5rem] flex items-center justify-items-center content-center h-center  md:h-[6rem]'>
-          <img src={logo} alt={`Logo ${index + 1}`} width="150" className='my-0 pl-[2.5rem] md:pl-0 bg-center bg-fixed h-center' />
+        <div key={index} className=' h-[5rem] flex items-center justify-items-center content-center h-center  inline md:h-[6rem]'>
+          <img src={logo} alt={`Logo ${index + 1}`} width="150" className='my-0 pl-[2.5rem] md:pl-0 bg-center  bg-fixed h-center' />
         </div>
       ))}
     </Slider>

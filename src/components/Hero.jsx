@@ -14,7 +14,7 @@ export const Hero = () => {
   },[]);
 
   return (
-    <div className='grid grid-cols-1 md:grid-cols-8 my-[4rem] lg:my-1  xl:py-[2rem] xl-h[10vh] h-[160vh] xl:h-[80vh] xl:mt-[2rem] xl:mb-[4rem]' id="home">
+    <div className='grid grid-cols-1 xl:grid-cols-8 my-[4rem] lg:m-0 lg:my-0  xl:py-[2rem] xl-h[10vh] h-[160vh] xl:h-[80vh] xl:mt-[2rem] xl:mb-[4rem]' id="home">
     {/* Information */}
       <div className="md:col-span-5 flex items-center justify-center p-8 md-[80vh] md:my-[0]">
         <div className="flex flex-col gap-4">
