@@ -13,7 +13,7 @@ const Fotter = () => {
         <div className=" py-0 max-w-[100%] flex flex-wrap justify-center flex-col items-center overflow-hidden">
                     <img src="IMG/logo.jpg" alt="Logo de SLee Dw" className="w-[250px]" />
         </div>
-        <div className="max-w-[100%] flex flex-wrap justify-center flex-col items-center m-[2rem] text-gray-500 text-xl leading-[2.5rem]">
+        <div className="max-w-[100%] flex flex-wrap justify-center flex-col items-center m-[2rem] text-gray-500 text-xl text-center leading-[2.5rem]">
             <h2 className='flex overflow-hidden flex-wrap break-all font-bold leading-[3rem] md:leading-[7rem] text-primary '>SOBRE NOSOTROS</h2>
             <p className='flex overflow-hidden flex-wrap break-all '>Dirección: 123 Calle Principal, Ciudad, País</p>
             <p className='flex overflow-hidden flex-wrap break-all '>Email: info@bikeshop.com</p>
